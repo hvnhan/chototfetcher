@@ -1,0 +1,38 @@
+.extra_img-b {
+    background: none repeat scroll 0 0 transparent;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 95px;
+    min-width: 95px;
+    box-shadow: 0 0 3px rgba(150,150,150,0.55),
+				1px 1px 0 white,
+				2px 2px 3px rgba(150,150,150,0.55);
+}
+
+.draggable {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    min-height: 93vh;
+    flex-direction: column;
+}
+
+ul {
+    flex: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
